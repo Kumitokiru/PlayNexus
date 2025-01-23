@@ -1,1 +1,1 @@
-# Open terminal in your designatted folder and clone PlayNexus
+# Open terminal in your designated folder and clone PlayNexus
