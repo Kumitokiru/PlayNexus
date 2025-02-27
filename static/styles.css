@@ -1,0 +1,144 @@
+/* General Layout */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+    background-color: #535558;
+}
+
+/* Sidebar */
+.sdbr {
+    width: 250px;
+    background-color: #535558;
+    border: 2px solid #f63333;
+    border-radius: 4px;
+ 
+   
+   
+    padding: 20px;
+    text-align: center;
+    font-size: 21px;
+    
+}
+
+.playnexuslogo img {
+    margin-top: 20px;
+    width: 100%;
+    height: auto;
+    
+    
+}
+
+.sdbdsply {
+    margin-top: 20px;
+    padding: 12px;
+    background-color: #535558;
+    height: calc(100% - 80px);
+    overflow-y: auto;
+    text-align: center;
+}
+.draggable-item {
+    padding: 10px;
+    margin: 5px 0;
+    background-color: #6c6f73;
+    border: 2px solid #f63333;
+    border-radius: 4px;
+    color: white;
+    cursor: move;
+    user-select: none;
+}
+
+.draggable-item:hover {
+    background-color: #7a7d82;
+    transform: scale(1.02);
+    transition: all 0.2s ease;
+}
+
+.draggable-item.dragging {
+    opacity: 0.5;
+    background-color: #4a4d51;
+}
+
+/* Main Display */
+.dsply {
+    flex: 1;
+    padding: 20px;
+    background-color: #535558;
+    border: 3px solid #ea2121;
+  
+
+}
+
+
+
+/* Icon Bar */
+.icon-bar {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.srchbr {
+    
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.sbrbtn, .mscbtn, .plystbtn, .vdsbtn, .sttngsbtn {
+    padding: 10px;
+    border: 3px solid #0e0d0d;
+    background-color: #f63333;
+    color: white;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.sbrbtn:hover, .mscbtn:hover, .plystbtn:hover, .vdsbtn:hover, .sttngsbtn:hover {
+    background-color: #535558;
+}
+
+/* Content Area */
+.display {
+  
+    padding: 20px;
+    background-color: #535558;
+    
+   
+    height: 500px;
+    width: 950px;
+    border-width: 30px;
+    border-radius: none;
+}
+
+.hori1 {
+    height: 2px;
+    background-color: red;
+    width: calc(1260px);
+    margin: 10px 0;
+    left: 273px;
+    position: absolute;
+    top: 72px;
+}
+/* Media Controls */
+.media-controls {
+    background-color: #535558;
+    color: white;
+    padding: 40px;
+    position: fixed;
+    bottom: -2px;
+    left: 273px;
+    font-weight: bold;
+    border: 3px solid #ea2121;
+    border-radius: 4px;
+    width: calc(1180px);
+    height: 60px;
+    
+}
